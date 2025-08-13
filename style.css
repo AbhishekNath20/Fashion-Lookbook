@@ -1,0 +1,82 @@
+body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background: #191970;
+            color: #fff;
+        }
+        .hero {
+            background: linear-gradient(45deg, #191970, #0b0b40);
+            padding: 80px 20px;
+            font-family: 'Playfair Display', serif;
+        }
+        .hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #e0e0e0;
+        }
+        .collection {
+            padding: 50px 20px;
+        }
+        .collection h2 {
+            color: #fff;
+            margin-bottom: 20px;
+            font-family: 'Playfair Display', serif;
+        }
+        .collection .grid {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        .product {
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            max-width: 280px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+            transition: transform 0.3s ease, border 0.3s ease;
+            border: 2px solid transparent;
+        }
+        .product img:hover {
+            transform: scale(1.05);
+            border-color: #ffffff;
+        }
+        .product h3 {
+            margin-top: 10px;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        .product p {
+            font-size: 0.95rem;
+            color: #ddd;
+        }
+        .lower-section {
+            background: #fff;
+            color: #191970;
+            padding: 50px 20px;
+        }
+        .lower-section h2 {
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 10px;
+        }
+        .lower-section p {
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.6;
+        }
+        .footer {
+            background: #0b0b40;
+            padding: 20px;
+            color: #ccc;
+        }
+        .footer a {
+            color: white;
+            text-decoration: underline;
+        }
